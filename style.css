@@ -1,0 +1,65 @@
+.for_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.for_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#amtext{
+    font-size: 12px;
+}
+
+#amCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#amt{
+    font-weight: 600;
+}
+
+#transact{
+    display: flex;
+    justify-content: space-around;
+}
+
+#press{
+    max-width: 190px;
+}
+
+canvas{
+    max-width: 350px;
+    max-height: 150px;
+}
+
+.CHART{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buy{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#pur{
+    display: flex;
+    justify-content: space-evenly;
+}
